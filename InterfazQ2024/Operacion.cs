@@ -11,12 +11,12 @@ namespace InterfazQ2024
         /// <summary>
         /// Primer número a ingresar
         /// </summary>
-        public double N1 { get; set; }
+        public double N1;
 
         /// <summary>
         /// Segundo número a ingresar
         /// </summary>
-        public double N2 { get; set; }
+        public double N2;
 
         public void Imprimir() {
             Console.WriteLine($"La Suma es: {Suma()}");
@@ -78,7 +78,7 @@ namespace InterfazQ2024
         /// <returns>Area del triángulo</returns>
         public double Triangulo()
         {
-            throw new NotImplementedException();
+            return N1 * N2 / 2;
         }
     }
 }
